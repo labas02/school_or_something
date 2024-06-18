@@ -11,8 +11,8 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="354.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.muj_ne_prvni_project_v_gitu.HelloController">
     <children>
         <Polygon fx:id="auto" fill="DODGERBLUE" layoutX="99.0" layoutY="170.0" points="32.199981689453125, -42.0, 65.80001831054688, -84.39999389648438, 218.60000610351562, -84.39999389648438, 245.80001831054688, -35.600006103515625, 306.6000061035156, -27.600006103515625, 295.3999938964844, 13.20001220703125, 12.199989318847656, 13.20001220703125, -5.399986267089844, -5.20001220703125, -12.599998474121094, -35.600006103515625" stroke="BLACK" strokeType="INSIDE" />
-        <Circle layoutX="165.0" layoutY="178.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
-        <Circle layoutX="323.0" layoutY="178.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="zadni" layoutX="165.0" layoutY="178.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="predni" layoutX="323.0" layoutY="178.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" layoutX="165.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="32.0" layoutX="246.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
         <ColorPicker fx:id="barva" layoutX="184.0" layoutY="237.0" onAction="#zmenBarvu">
@@ -22,6 +22,6 @@
         </ColorPicker>
         <Circle fill="WHITE" layoutX="165.0" layoutY="178.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
         <Circle fill="WHITE" layoutX="323.0" layoutY="178.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
-      <Slider layoutX="176.0" layoutY="285.0" max="50.0" min="25.0" />
+      <Slider fx:id="slider" layoutX="176.0" layoutY="285.0" max="50.0" min="25.0" />
     </children>
 </AnchorPane>
