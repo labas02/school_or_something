@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Slider?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Polygon?>
 <?import javafx.scene.shape.Rectangle?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="354.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.muj_ne_prvni_project_v_gitu.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="354.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.muj_ne_prvni_project_v_gitu.HelloController">
     <children>
         <Polygon fx:id="auto" fill="DODGERBLUE" layoutX="99.0" layoutY="170.0" points="32.199981689453125, -42.0, 65.80001831054688, -84.39999389648438, 218.60000610351562, -84.39999389648438, 245.80001831054688, -35.600006103515625, 306.6000061035156, -27.600006103515625, 295.3999938964844, 13.20001220703125, 12.199989318847656, 13.20001220703125, -5.399986267089844, -5.20001220703125, -12.599998474121094, -35.600006103515625" stroke="BLACK" strokeType="INSIDE" />
         <Circle layoutX="165.0" layoutY="178.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
@@ -21,5 +22,6 @@
         </ColorPicker>
         <Circle fill="WHITE" layoutX="165.0" layoutY="178.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
         <Circle fill="WHITE" layoutX="323.0" layoutY="178.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Slider layoutX="176.0" layoutY="285.0" max="50.0" min="25.0" />
     </children>
 </AnchorPane>
